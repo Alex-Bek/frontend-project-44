@@ -8,7 +8,7 @@ export const recieveAnswer = () => readlineSync.question('Your answer: ').toLowe
 
 export const answerEvaluation = (answer, correctAnswer) => {
   if (correctAnswer === answer) {
-    console.log('correct');
+    console.log('Correct!');
     return true;
   }
   console.log(`'${answer}' is wrong answer ;(. Correct answer was ${correctAnswer}.`);
