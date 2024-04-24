@@ -16,5 +16,4 @@ export default () => {
   const name = greeting();
   const result = playGame(task, generateQuestion, validateInput);
   endGame(result, name);
-}
-
+};
