@@ -3,4 +3,8 @@
 <a href="https://codeclimate.com/github/Alex-Bek/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e28330e56865a6fa130c/maintainability" /></a>
 
 
-Демонстрация работы: https://asciinema.org/a/ZYDNoGjDP11AyRlc1moE3eSMn
+Демонстрация работы brain-even: https://asciinema.org/a/lkAPJfsQD2OT1Cz6eNPquHnH5;
+Демонстрация работы brain-calc: https://asciinema.org/a/Pts4wgsCcfCDme4nrXKe2Tnlx;
+Демонстрация работы brain-gcd: https://asciinema.org/a/TXMkbJRXPFHvVtErh66U8SKPf;
+Демонстрация работы brain-progression: https://asciinema.org/a/GNeWaeyXmRSbyjZol2qh5PWwb;
+Демонстрация работы brain-prime: https://asciinema.org/a/Ph8tHH0MTUgycIiS40eYeabHj;
