@@ -5,6 +5,7 @@ const despatchAction = (arg1, arg2, action) => {
   if (action === '+') return arg1 + arg2;
   if (action === '-') return arg1 - arg2;
   if (action === '*') return arg1 * arg2;
+  return null;
 };
 
 const generateQuestion = () => {
@@ -12,7 +13,7 @@ const generateQuestion = () => {
   const randNum1 = genRand();
   const randNum2 = genRand();
   const actions = ['+', '-', '*'];
-  const chosenAction = actions[genRand(2,0)];
+  const chosenAction = actions[genRand(2, 0)];
   const questionLine = `${randNum1} ${chosenAction} ${randNum2}`;
   const correctAnswer = despatchAction(randNum1, randNum2, chosenAction).toString();
   return [questionLine, correctAnswer];
