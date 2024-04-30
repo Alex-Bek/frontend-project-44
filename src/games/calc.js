@@ -10,7 +10,7 @@ const generateQuestion = () => {
   const actionFunc = {
     '+': (a, b) => a + b,
     '-': (a, b) => a - b,
-    '*': (a, b) => a * b
+    '*': (a, b) => a * b,
   };
   const questionLine = `${randNum1} ${chosenAction} ${randNum2}`;
   const correctAnswer = actionFunc[chosenAction](randNum1, randNum2).toString();
