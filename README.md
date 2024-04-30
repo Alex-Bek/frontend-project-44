@@ -11,9 +11,13 @@ brain-progression: Игра на поиск потерянного элемен�
 brain-prime: Игра на проверку является ли число простым;
 
 Демонстрация работы brain-even: https://asciinema.org/a/lkAPJfsQD2OT1Cz6eNPquHnH5;
+
 Демонстрация работы brain-calc: https://asciinema.org/a/Pts4wgsCcfCDme4nrXKe2Tnlx;
+
 Демонстрация работы brain-gcd: https://asciinema.org/a/TXMkbJRXPFHvVtErh66U8SKPf;
+
 Демонстрация работы brain-progression: https://asciinema.org/a/GNeWaeyXmRSbyjZol2qh5PWwb;
+
 Демонстрация работы brain-prime: https://asciinema.org/a/Ph8tHH0MTUgycIiS40eYeabHj;
 
 Для установки, клонируйте репозиторий себе на компьютер и выполните в терминале (или в wsl в случае windows) в корневой директории проекта команду npm link.
