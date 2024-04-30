@@ -1,12 +1,20 @@
 import greeting from '../cli.js';
 import { playGame, endGame } from '../index.js';
 
+const despatchAction = (arg1, arg2, action) => {
+  if (action === '+') return arg1 + arg2;
+  if (action === '-') return arg1 - arg2;
+  if (action === '*') return arg1 * arg2;
+};
+
 const generateQuestion = () => {
-  const genRand = () => Math.floor(Math.random() * (100 + 1));
+  const genRand = (top = 100, bot = 1) => Math.floor(Math.random() * (top - bot + 1)) + bot;
   const randNum1 = genRand();
   const randNum2 = genRand();
-  const questionLine = `${randNum1} + ${randNum2}`;
-  const correctAnswer = (randNum1 + randNum2).toString();
+  const actions = ['+', '-', '*'];
+  const chosenAction = actions[genRand(2,0)];
+  const questionLine = `${randNum1} ${chosenAction} ${randNum2}`;
+  const correctAnswer = despatchAction(randNum1, randNum2, chosenAction).toString();
   return [questionLine, correctAnswer];
 };
 
